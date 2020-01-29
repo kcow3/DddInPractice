@@ -1,6 +1,6 @@
 ﻿namespace DomainDrivenDesign.Logic
 {
-    public sealed class VendingMachine
+    public sealed class VendingMachine : EntityBase
     {
         public Money MoneyInMachine;
         public Money MoneyInTransaction;
